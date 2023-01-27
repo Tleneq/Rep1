@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main(int argc, char* argv[]){
+int dodawanie(int argc, char* argv[]){
     double a,b;
     cout<<"Wpisz dwie liczby do dodania: ";
     cin>>a>>b;
