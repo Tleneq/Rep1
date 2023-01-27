@@ -1,10 +1,13 @@
 #include <iostream>
 using namespace std;
-int dzielenie(){
-    double a,b;
+long double dzielenie(long double a, long double b){
+    return a/b;
+}
+int main(int argc, char* argv[]){
+    long double a,b;
     cout<<"Wpisz dwie liczby do podzielenia: ";
     cin>>a>>b;
-    if(b) cout<<a<<" / "<<b<<" = "<<a/b;
-    else cout<<"Pamiętaj *******, nie dziel przez zero!";
+    if(!b) cout<<"Pamiętaj *******, nie dziel przez zero!";
+    else cout<<"Wynik: "<<dzielenie(a,b);
     return 0;
 }
