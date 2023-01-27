@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main(int argc, char* argv[]){
+int dzielenie(){
     double a,b;
     cout<<"Wpisz dwie liczby do podzielenia: ";
     cin>>a>>b;
