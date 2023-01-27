@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main() {
+int mnozenie() {
   double a, b;
   cout << "Wypisz dwie liczby do pomnożenia:" << endl;
   cin >> a;
