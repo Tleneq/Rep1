@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+//funkcja dodająca dwie liczby typu double
 int dodawanie(){
     double a,b;
     cout<<"Wpisz dwie liczby do dodania: ";
